@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Header Code which contains things users cant see -->
+
+<head>
+    <!-- Link to Poppins font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Linking CSS Stylesheet -->
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="/_images/favicon.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Panda Lives Matter</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <!-- logo -->
+            <a href="index.html">
+                <img src="/_images/logo.png" alt="Panda Lives Matter logo" id="logo">
+            </a>
+
+            <a href="index.html">Home</a>
+            <a href="about.html">About us</a>
+            <a href="adopt.html">Adoptions</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="donations.html">Donations</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Contact Us</h1>
+        <h2>Please fill in your details in the form below</h2>
+        <!-- Contact Form -->
+        <form>
+            <div>
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="fname">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+            </div>
+            <div>
+                <h3>Reason for Contact</h3>
+                <input type="radio" id="adoption" name="reason" value="adoption">
+                <label for="adoption">Adoption</label>
+
+                <input type="radio" id="generalEnquiry" name="reason" value="generalEnquiry">
+                <label for="generalEnquiry">General Enquiry</label>
+
+                <input type="radio" id="other" name="reason" value="other">
+                <label for="other">Other</label>
+            </div>
+
+            <button type="submit" title="Submits message">Submit</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Panda Lives Matter</p>
+        <a href="donations.html"> Go to donations Page</a>
+    </footer>
+
+
+</body>
+
+</html>

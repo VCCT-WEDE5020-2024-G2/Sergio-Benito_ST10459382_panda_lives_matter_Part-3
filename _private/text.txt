@@ -1,0 +1,58 @@
+HOme page
+Nav bar - logo and nav items
+
+main Slide image - with text overlayed | Panda Lives Matter, We cant do it for ourselves, we depend you
+
+We have no voice we need yours - Donate 
+
+left sided image with text on right, it says " Learn about us"
+right sided image with text left, it says "Adopt a panda"
+
+ map with fake marker -  This used to be our home
+
+
+
+
+ about page 
+
+slideshow image
+ H1 - About Panada Lives Matter
+
+h2 Who we are 
+
+<p> we are an NPO org etc etc
+
+image of headquarters edited with Panda lives matter logo etc
+
+
+
+adopt page
+h1 Adopt
+
+slogan We need a new forever home - Slideimage
+
+image left and right alternating with text with panada available for adoption with details about the panda then a button that takes them to contact page
+
+
+Contact 
+
+    form that asks for name, email, message
+
+    
+
+Donations 
+
+We are running low on bamboo 
+image of sad panda 
+
+Donate to help us feed the pandas
+
+button that takes to real donate page 
+
+Thank you for being there when we needed you most 
+
+
+To Do:
+Setup CSS styles, and classes, fix collapsibles 
+
+possibly add, meet the founder page
