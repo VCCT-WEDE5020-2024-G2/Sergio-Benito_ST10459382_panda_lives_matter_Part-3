@@ -135,31 +135,41 @@ input[type="text"], input[type="email"], textarea {
         height: 20vw;
     }
 
+
     .herocontainer {
-        flex-direction: column;
-    }
-
-    .herocontainer h1 {
-        font-size: 1rem;
-        padding-bottom: 200px;
-    }
-
-    .herocontainer p {
-        font-size: 0.65rem;
+        flex-direction: column; 
+        align-items: center;
     }
 
     .herocontainer img {
-        height: auto;
+        height: auto; 
     }
 
+    .herocontainer h1, .herocontainer p {
+        position: static;
+        margin-top: 10px;
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    .herocontainer h1 {
+        font-size: 1.2rem; 
+    }
+
+    .herocontainer p {
+        font-size: 0.9rem;
+    }
+
+    
     .image-and-button-container {
         flex-direction: column;
         align-items: center;
     }
 
     .image-and-button-container * {
-        max-width: 110vw;
+        max-width: 90vw;
         text-align: center;
     }
 }
+
 
