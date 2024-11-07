@@ -123,6 +123,19 @@ input[type="text"], input[type="email"], textarea {
     border-radius: 4px;
 }
 
+#clock {
+    font-size: 25px;
+    width: 200px;
+    margin: 25px auto; /* Center the clock horizontally */
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 20px;
+    color: white;
+    padding: 20px; /* Add padding to prevent the text from touching the edges */
+    background-color: black; /* Optional: Add background color for contrast */
+}
+
+
 
 
 @media (max-width: 960px) {
@@ -171,5 +184,6 @@ input[type="text"], input[type="email"], textarea {
         text-align: center;
     }
 }
+
 
 
