@@ -123,17 +123,18 @@ input[type="text"], input[type="email"], textarea {
     border-radius: 4px;
 }
 
-#clock {
-    font-size: 25px;
-    width: 200px;
-    margin: 25px auto; 
-    text-align: center;
-    border: 2px solid white;
-    border-radius: 20px;
-    color: white;
-    padding: 20px; 
-    background-color: black; 
-}
+    #clock {
+        font-size: 25px;
+        width: 128px;
+        margin: 25px auto; 
+        text-align: center;
+        border: 2px solid white;
+        border-radius: 20px;
+        color: white;
+        padding: 20px; 
+        background-color: black; 
+        display : flex;
+    }
 
 
 
