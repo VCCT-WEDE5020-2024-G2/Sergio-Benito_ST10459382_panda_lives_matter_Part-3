@@ -1,11 +1,10 @@
-/* This section styles the general look */
 header {
     margin-bottom: 20px;
 }
 
 body {
-    background-color: black; 
-    color: white; 
+    background-color: black;
+    color: white;
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     line-height: 1.5;
@@ -27,23 +26,18 @@ nav a {
 
 nav a:hover {
     text-decoration: underline;
-    background-color: white; 
-    color: red; 
+    background-color: white;
+    color: red;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
-    color: orange; 
+    color: orange;
 }
 
 button {
-    background-color: tomato; 
-    color: white; 
+    background-color: tomato;
+    color: white;
     border: none;
     border-radius: 5px;
     padding: 15px 30px;
@@ -51,23 +45,20 @@ button {
 }
 
 button:hover {
-    background-color: crimson; 
+    background-color: crimson;
     transform: scale(1.05);
 }
 
-/* Footer styles */
 footer {
     margin-top: 20px;
     text-align: center;
 }
 
-/* This section styles the hero container */
 .herocontainer {
     position: relative;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    text-align: left;
 }
 
 .herocontainer img {
@@ -77,12 +68,11 @@ footer {
     opacity: 0.45;
 }
 
-.herocontainer h1,
-.herocontainer p {
+.herocontainer h1, .herocontainer p {
     position: absolute;
     margin: 0;
     left: 15vw;
-    color: white; 
+    color: white;
     z-index: 1;
 }
 
@@ -95,7 +85,6 @@ footer {
     top: 40%;
 }
 
-/* Image and Button Container styles */
 .image-and-button-container {
     display: flex;
     justify-content: space-between;
@@ -103,8 +92,7 @@ footer {
     padding: 4vw;
 }
 
-.image-and-button-container h2,
-.image-and-button-container p {
+.image-and-button-container * {
     text-align: left;
     max-width: 20vw;
 }
@@ -114,11 +102,9 @@ footer {
     height: auto;
 }
 
-/* Form styles */
 form {
     display: flex;
     flex-direction: column;
-    border: red; 
 }
 
 form div {
@@ -130,17 +116,15 @@ label {
     margin-bottom: 5px;
 }
 
-input[type="text"],
-input[type="email"],
-textarea {
+input[type="text"], input[type="email"], textarea {
     width: 50%;
     padding: 10px;
     margin-top: 5px;
-    border: gray; 
     border-radius: 4px;
 }
 
-/* Media Query for Mobile Devices less than 960px in screen width*/
+
+
 @media (max-width: 960px) {
     body {
         font-size: 0.9rem;
@@ -153,8 +137,6 @@ textarea {
 
     .herocontainer {
         flex-direction: column;
-        text-align: center;
-        font-size: 1rem;
     }
 
     .herocontainer h1 {
@@ -175,9 +157,9 @@ textarea {
         align-items: center;
     }
 
-    .image-and-button-container h2,
-    .image-and-button-container p {
+    .image-and-button-container * {
         max-width: 110vw;
         text-align: center;
     }
 }
+
