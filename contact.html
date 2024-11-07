@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css" type="text/css">
     <link rel="icon" type="image/x-icon" href="/_images/favicon.png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Have questions? Get in touch with Panda Lives Matter. Fill out the form and let us know how you can help or inquire about adoptions, donations, or other requests.">
+    <meta name="description"
+        content="Have questions? Get in touch with Panda Lives Matter. Fill out the form and let us know how you can help or inquire about adoptions, donations, or other requests.">
     <title>Contact Us - Panda Lives Matter | Reach Out and Make a Difference</title>
 </head>
 
@@ -60,58 +62,58 @@
 
     <script src="/javascript/clock.js"></script>
     <script>
-		// Clears the default value when the user focuses on the field
-		function clearDefault(input) {
-			if (input.value === input.defaultValue) {
-				input.value = ''; // Clear the value on focus
-			}
-		}
-	
-		// Restores the default value if the field is empty when the user leaves it
-		function restoreDefault(input) {
-			if (input.value === '') {
-				input.value = input.defaultValue; // Restore default if empty
-			}
-		}
-	
-		function validateForm() {
-			const fname = document.getElementById('fname').value;
-			const email = document.getElementById('email').value;
-			const message = document.getElementById('message').value;
-			const reason = document.querySelector('input[name="reason"]:checked');
-	
-			if ((fname === "" || fname === "Enter your name") && (email === "" || email === "Enter your email") && (message === "" || message === "Enter your message") && !reason) {
-				alert("Please fill in the form below");
-				return false;
-			}
-			else if (fname === "" || fname === "Enter your name") {
-				alert("Please enter your name");
-				return false;
-			}
-			else if (email === "" || email === "Enter your email" || !email.includes("@") || !email.includes(".")) {
-				alert("Not a valid email format");
-				return false;
-			}
-			else if (message === "" || message === "Enter your message") {
-				alert('Message is required.');
-				return false;
-			}
-			else if (!reason) {
-				alert('Please select a reason for contact.');
-				return false;
-			}
-	
-			// If all validations are passed
-			document.getElementById("col2").innerHTML = "<h2>Thanks for Joining!</h2>";
-	
-			// Prepare the mailto link
-			const subject = 'Contact Form Submission - Panda Lives Matter';
-			const body = `First Name: ${fname}\nEmail: ${email}\nMessage: ${message}\nReason for Contact: ${reason.value}`;
-			window.location.href = `mailto:someone@example.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-	
-			return false; 
-		}
-	</script>
+        // Clears the default value when the user focuses on the field
+        function clearDefault(input) {
+            if (input.value === input.defaultValue) {
+                input.value = ''; // Clear the value on focus
+            }
+        }
+
+        // Restores the default value if the field is empty when the user leaves it
+        function restoreDefault(input) {
+            if (input.value === '') {
+                input.value = input.defaultValue; // Restore default if empty
+            }
+        }
+
+        function validateForm() {
+            const fname = document.getElementById('fname').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+            const reason = document.querySelector('input[name="reason"]:checked');
+
+            if ((fname === "" || fname === "Enter your name") && (email === "" || email === "Enter your email") && (message === "" || message === "Enter your message") && !reason) {
+                alert("Please fill in the form below");
+                return false;
+            }
+            else if (fname === "" || fname === "Enter your name") {
+                alert("Please enter your name");
+                return false;
+            }
+            else if (email === "" || email === "Enter your email" || !email.includes("@") || !email.includes(".")) {
+                alert("Not a valid email format");
+                return false;
+            }
+            else if (message === "" || message === "Enter your message") {
+                alert('Message is required.');
+                return false;
+            }
+            else if (!reason) {
+                alert('Please select a reason for contact.');
+                return false;
+            }
+
+            // If all validations are passed
+            document.getElementById("col2").innerHTML = "<h2>Thanks for Joining!</h2>";
+
+            // Prepare the mailto link
+            const subject = 'Contact Form Submission - Panda Lives Matter';
+            const body = `First Name: ${fname}\nEmail: ${email}\nMessage: ${message}\nReason for Contact: ${reason.value}`;
+            window.location.href = `mailto:someone@example.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+            return false;
+        }
+    </script>
 </body>
 
 </html>

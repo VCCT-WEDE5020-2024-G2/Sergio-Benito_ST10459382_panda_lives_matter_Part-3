@@ -30,7 +30,12 @@ nav a:hover {
     color: red;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-weight: bold;
     color: orange;
 }
@@ -68,7 +73,8 @@ footer {
     opacity: 0.45;
 }
 
-.herocontainer h1, .herocontainer p {
+.herocontainer h1,
+.herocontainer p {
     position: absolute;
     margin: 0;
     left: 15vw;
@@ -116,25 +122,27 @@ label {
     margin-bottom: 5px;
 }
 
-input[type="text"], input[type="email"], textarea {
+input[type="text"],
+input[type="email"],
+textarea {
     width: 50%;
     padding: 10px;
     margin-top: 5px;
     border-radius: 4px;
 }
 
-    #clock {
-        font-size: 25px;
-        width: 128px;
-        margin: 25px auto; 
-        text-align: center;
-        border: 2px solid white;
-        border-radius: 20px;
-        color: white;
-        padding: 20px; 
-        background-color: black; 
-        display : flex;
-    }
+#clock {
+    font-size: 25px;
+    width: 128px;
+    margin: 25px auto;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 20px;
+    color: white;
+    padding: 20px;
+    background-color: black;
+    display: flex;
+}
 
 
 
@@ -151,15 +159,16 @@ input[type="text"], input[type="email"], textarea {
 
 
     .herocontainer {
-        flex-direction: column; 
+        flex-direction: column;
         align-items: center;
     }
 
     .herocontainer img {
-        height: auto; 
+        height: auto;
     }
 
-    .herocontainer h1, .herocontainer p {
+    .herocontainer h1,
+    .herocontainer p {
         position: static;
         margin-top: 10px;
         text-align: center;
@@ -167,14 +176,14 @@ input[type="text"], input[type="email"], textarea {
     }
 
     .herocontainer h1 {
-        font-size: 1.2rem; 
+        font-size: 1.2rem;
     }
 
     .herocontainer p {
         font-size: 0.9rem;
     }
 
-    
+
     .image-and-button-container {
         flex-direction: column;
         align-items: center;
@@ -185,6 +194,3 @@ input[type="text"], input[type="email"], textarea {
         text-align: center;
     }
 }
-
-
-
